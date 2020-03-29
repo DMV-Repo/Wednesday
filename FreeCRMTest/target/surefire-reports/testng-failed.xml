@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Command line suite]" verbose="0">
+  <test thread-count="5" name="Command line test(failed)" verbose="0">
+    <classes>
+      <class name="com.crm.qa.testcases.CustomersTest">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="Customers"/>
+          <include name="customerTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.CustomersTest -->
+      <class name="com.crm.qa.testcases.openAccountPageTest">
+        <methods>
+          <include name="openAccount" invocation-numbers="0 1"/>
+          <include name="openAccountPageTest"/>
+          <include name="launchbrowser"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.openAccountPageTest -->
+    </classes>
+  </test> <!-- Command line test(failed) -->
+</suite> <!-- Failed suite [Command line suite] -->

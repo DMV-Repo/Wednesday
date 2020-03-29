@@ -1,0 +1,11 @@
+com\crm\qa\pages\addNewCustomer.class
+com\crm\qa\pages\homePage.class
+com\crm\qa\util\TestUtil.class
+com\listener\ExtentRreporterNG.class
+com\crm\qa\pages\customerLoginPage.class
+com\crm\qa\pages\openAccountPage.class
+com\crm\qa\base\dataProviderClass.class
+com\crm\qa\base\testBase.class
+com\crm\qa\pages\CustomersPage.class
+com\crm\qa\util\WebEventListener.class
+com\crm\qa\pages\managerloginPage.class

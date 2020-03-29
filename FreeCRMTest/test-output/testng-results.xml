@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="6" failed="1" skipped="1">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-03-21T05:16:05Z" name="Suite" finished-at="2020-03-21T05:17:48Z" duration-ms="102964">
+    <groups>
+    </groups>
+    <test started-at="2020-03-21T05:16:05Z" name="Test" finished-at="2020-03-21T05:17:48Z" duration-ms="102964">
+      <class name="com.crm.qa.testcases.loginPaheTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.loginPaheTest@1ed6388a]" started-at="2020-03-21T05:16:05Z" name="setup" finished-at="2020-03-21T05:16:17Z" duration-ms="12342" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.crm.qa.testcases.loginPaheTest@1ed6388a]" started-at="2020-03-21T05:16:17Z" name="loginTest" finished-at="2020-03-21T05:16:18Z" duration-ms="587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="Cleanup()[pri:0, instance:com.crm.qa.testcases.loginPaheTest@1ed6388a]" started-at="2020-03-21T05:16:18Z" name="Cleanup" finished-at="2020-03-21T05:16:18Z" duration-ms="118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cleanup -->
+      </class> <!-- com.crm.qa.testcases.loginPaheTest -->
+      <class name="com.crm.qa.testcases.CustomersTest">
+        <test-method signature="Customers(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.CustomersTest@534a5a98]" started-at="2020-03-21T05:17:20Z" name="Customers" data-provider="dp" finished-at="2020-03-21T05:17:20Z" duration-ms="0" status="SKIP">
+          <exception class="java.lang.RuntimeException">
+            <message>
+              <![CDATA[java.lang.NullPointerException]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.RuntimeException: java.lang.NullPointerException
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:49)
+at org.testng.internal.MethodInvocationHelper.invokeDataProvider(MethodInvocationHelper.java:131)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:706)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:49)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:37)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:924)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: java.lang.NullPointerException
+at com.crm.qa.base.dataProviderClass.getData(dataProviderClass.java:35)
+at com.crm.qa.base.dataProviderClass.getTestdata(dataProviderClass.java:45)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:74)
+at org.testng.internal.MethodInvocationHelper.invokeMethodNoCheckedException(MethodInvocationHelper.java:45)
+... 22 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.RuntimeException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Customers -->
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:com.crm.qa.testcases.CustomersTest@534a5a98]" started-at="2020-03-21T05:17:20Z" name="launchbrowser" finished-at="2020-03-21T05:17:32Z" duration-ms="11399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="customerTest()[pri:0, instance:com.crm.qa.testcases.CustomersTest@534a5a98]" started-at="2020-03-21T05:17:32Z" name="customerTest" finished-at="2020-03-21T05:17:48Z" duration-ms="16340" status="FAIL">
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"//tr[@class="ng-scope"][1]//following::td[contains(text(),'custName')]"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-1NB2K1E', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Abdel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57571}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 366a0a4e14a6da2399cde5260a5b2e5a
+*** Element info: {Using=xpath, value=//tr[@class="ng-scope"][1]//following::td[contains(text(),'custName')]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//tr[@class="ng-scope"][1]//following::td[contains(text(),'custName')]"}
+  (Session info: chrome=80.0.3987.132)
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-1NB2K1E', ip: '192.168.1.155', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '13.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 80.0.3987.132, chrome: {chromedriverVersion: 80.0.3987.106 (f68069574609..., userDataDir: C:\Users\Abdel\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:57571}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 366a0a4e14a6da2399cde5260a5b2e5a
+*** Element info: {Using=xpath, value=//tr[@class="ng-scope"][1]//following::td[contains(text(),'custName')]}
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:424)
+at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at jdk.internal.reflect.GeneratedMethodAccessor4.invoke(Unknown Source)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$1(EventFiringWebDriver.java:105)
+at com.sun.proxy.$Proxy11.findElement(Unknown Source)
+at org.openqa.selenium.support.events.EventFiringWebDriver.findElement(EventFiringWebDriver.java:194)
+at com.crm.qa.pages.CustomersPage.Customers(CustomersPage.java:27)
+at com.crm.qa.testcases.CustomersTest.customerTest(CustomersTest.java:24)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- customerTest -->
+      </class> <!-- com.crm.qa.testcases.CustomersTest -->
+      <class name="com.crm.qa.testcases.addNewCustomerTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.addNewCustomerTest@5a45133e]" started-at="2020-03-21T05:16:19Z" name="setup" finished-at="2020-03-21T05:16:30Z" duration-ms="11274" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.addNewCustomerTest@5a45133e]" started-at="2020-03-21T05:16:30Z" name="AddCustomer" data-provider="dp" finished-at="2020-03-21T05:16:31Z" duration-ms="921" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alex1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[montoya1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20147.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCustomer -->
+        <test-method is-config="true" signature="CleanupMethod()[pri:0, instance:com.crm.qa.testcases.addNewCustomerTest@5a45133e]" started-at="2020-03-21T05:16:31Z" name="CleanupMethod" finished-at="2020-03-21T05:16:31Z" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanupMethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.addNewCustomerTest@5a45133e]" started-at="2020-03-21T05:16:31Z" name="setup" finished-at="2020-03-21T05:16:42Z" duration-ms="11174" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.addNewCustomerTest@5a45133e]" started-at="2020-03-21T05:16:42Z" name="AddCustomer" data-provider="dp" finished-at="2020-03-21T05:16:43Z" duration-ms="875" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alex2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[montoya2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20148.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCustomer -->
+        <test-method is-config="true" signature="CleanupMethod()[pri:0, instance:com.crm.qa.testcases.addNewCustomerTest@5a45133e]" started-at="2020-03-21T05:16:43Z" name="CleanupMethod" finished-at="2020-03-21T05:16:43Z" duration-ms="129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanupMethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.addNewCustomerTest@5a45133e]" started-at="2020-03-21T05:16:43Z" name="setup" finished-at="2020-03-21T05:16:54Z" duration-ms="11201" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.addNewCustomerTest@5a45133e]" started-at="2020-03-21T05:16:54Z" name="AddCustomer" data-provider="dp" finished-at="2020-03-21T05:16:55Z" duration-ms="1022" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alex3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[montoya3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20149.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCustomer -->
+        <test-method is-config="true" signature="CleanupMethod()[pri:0, instance:com.crm.qa.testcases.addNewCustomerTest@5a45133e]" started-at="2020-03-21T05:16:55Z" name="CleanupMethod" finished-at="2020-03-21T05:16:55Z" duration-ms="122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanupMethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.addNewCustomerTest@5a45133e]" started-at="2020-03-21T05:16:55Z" name="setup" finished-at="2020-03-21T05:17:07Z" duration-ms="11181" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddCustomer(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.crm.qa.testcases.addNewCustomerTest@5a45133e]" started-at="2020-03-21T05:17:07Z" name="AddCustomer" data-provider="dp" finished-at="2020-03-21T05:17:07Z" duration-ms="879" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alex4]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[montoya4]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[20150.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddCustomer -->
+        <test-method is-config="true" signature="CleanupMethod()[pri:0, instance:com.crm.qa.testcases.addNewCustomerTest@5a45133e]" started-at="2020-03-21T05:17:07Z" name="CleanupMethod" finished-at="2020-03-21T05:17:08Z" duration-ms="131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanupMethod -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:com.crm.qa.testcases.addNewCustomerTest@5a45133e]" started-at="2020-03-21T05:17:08Z" name="setup" finished-at="2020-03-21T05:17:19Z" duration-ms="11728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="AddnewCustomerTest()[pri:0, instance:com.crm.qa.testcases.addNewCustomerTest@5a45133e]" started-at="2020-03-21T05:17:19Z" name="AddnewCustomerTest" finished-at="2020-03-21T05:17:20Z" duration-ms="825" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddnewCustomerTest -->
+        <test-method is-config="true" signature="CleanupMethod()[pri:0, instance:com.crm.qa.testcases.addNewCustomerTest@5a45133e]" started-at="2020-03-21T05:17:20Z" name="CleanupMethod" finished-at="2020-03-21T05:17:20Z" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CleanupMethod -->
+      </class> <!-- com.crm.qa.testcases.addNewCustomerTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

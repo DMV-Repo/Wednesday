@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="10" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.listener.ExtentRreporterNG"/>
+  </listeners>
+  <test thread-count="10" name="Test(failed)">
+    <classes>
+      <class name="com.crm.qa.testcases.CustomersTest">
+        <methods>
+          <include name="launchbrowser"/>
+          <include name="Customers"/>
+          <include name="customerTest"/>
+        </methods>
+      </class> <!-- com.crm.qa.testcases.CustomersTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

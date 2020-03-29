@@ -1,0 +1,4 @@
+com\crm\qa\testcases\loginPaheTest.class
+com\crm\qa\testcases\addNewCustomerTest.class
+com\crm\qa\testcases\CustomersTest.class
+com\crm\qa\testcases\openAccountPageTest.class
